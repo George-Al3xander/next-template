@@ -8,7 +8,8 @@
         "start": "next start",
         "lint": "next lint",
         "format": "pnpm exec prettier --write",
-        "prepare": "husky"
+        "prepare": "husky",
+        "pre-commit": "lint-staged"
     },
     "dependencies": {
         "next": "15.1.4",
@@ -23,11 +24,13 @@
         "eslint": "^9",
         "eslint-config-next": "15.1.4",
         "husky": "^9.1.7",
+        "lint-staged": "^15.3.0",
         "postcss": "^8",
         "prettier": "3.4.2",
         "prettier-plugin-organize-imports": "^4.1.0",
         "prettier-plugin-tailwindcss": "^0.6.9",
         "tailwindcss": "^3.4.1",
+        "tsc-files": "^1.1.4",
         "typescript": "^5"
     }
 }
