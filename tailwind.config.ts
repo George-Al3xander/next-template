@@ -1,11 +1,7 @@
 import type { Config } from "tailwindcss";
 import { fontFamily } from "tailwindcss/defaultTheme";
 export default {
-    content: [
-        "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-    ],
+    content: ["./src/ui/**/*.{ts,tsx}", "./src/app/**/*.{ts,tsx}"],
     theme: {
         extend: {
             fontFamily: {
